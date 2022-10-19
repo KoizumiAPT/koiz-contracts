@@ -1,0 +1,17 @@
+[package]
+name = 'koiz'
+version = '0.0.0'
+
+[dependencies.AptosFramework]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'main'
+subdir = 'aptos-move/framework/aptos-framework'
+
+[dependencies.AptosToken]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'main'
+subdir = 'aptos-move/framework/aptos-token'
+
+
+[addresses]
+koiz = "0x3ebeee719166f9982331dd216280703b68da432b14ab19cfbe519e0b50cf7c5f"
